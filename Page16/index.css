@@ -15,8 +15,8 @@ body,
 /* left pannel style */
 
 .leftPannel {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
 }
 
 .head1,
@@ -118,8 +118,8 @@ body,
 
 /* Right Pannel Style */
 .rightPannel {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
 }
 
 .RightPannelParent,
@@ -192,7 +192,7 @@ body,
     margin-left: 5%;
 }
 
-.userIcon{
+.userIcon {
     height: 21px;
     width: 33px;
 }
