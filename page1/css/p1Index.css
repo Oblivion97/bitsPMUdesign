@@ -1,6 +1,87 @@
 body,
 * {
-    font-family: "normal normal normal Helvetica Neue";
+    font-family: Helvetica Neue,
+        Arial,
+        sans-serif;
     font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
 
+.mhPage1Background {
+    background-image: url(../img/image/Hero-image.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+/* page1 left side style */
+.mhPage1Left {
+    height: auto;
+    bottom: 0;
+    margin-bottom: 50px;
+    left: 0;
+    padding-left: 5% !important;
+}
+
+
+
+.mhpage1LeftText {
+    height: 112px;
+    width: 100%;
+    font-size: 80px;
+    text-align: left;
+    color: #fff;
+}
+
+.mhpage1Leftbutton {
+    height: 80px;
+    width: 230px;
+    background-color: #D10D74;
+    border-radius: 53px;
+    opacity: 1px !important;
+    color: #fff;
+    font-size: 40px;
+    align-items: center;
+    border: 0ch;
+}
+
+/* page1 right side style */
+.mhPage1Right {
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 50px;
+    right: 0;
+    padding-left: 5% !important;
+}
+
+.mhpage1RightText {
+    height: 112px;
+    width: 100%;
+    font-size: 80px;
+    text-align: left;
+    color: #fff;
+}
+
+.mhpage1Rightbutton {
+    height: 80px;
+    width: 230px;
+    background-color: #fff;
+    border-radius: 53px;
+    opacity: 1px !important;
+    color: #D10D74;
+    font-size: 40px;
+    align-items: center;
+    border: 0ch;
+}
+
+.mhpage1LeftButtondiv,
+.mhpage1RightTextdiv,
+.mhpage1LeftButtondiv,
+.mhpage1LeftTextdiv {
+    height: auto;
 }
