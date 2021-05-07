@@ -1,0 +1,198 @@
+body,
+* {
+    font-family: Helvetica Neue,
+        Arial,
+        sans-serif;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+.page16body {
+    background-image: url(./img/SVG/black-dotline.svg);
+}
+
+/* left pannel style */
+
+.leftPannel {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.head1,
+.head2,
+.FormView,
+.FormViewParent,
+.SubButtonRed {
+    height: auto;
+}
+
+.head1 {
+    margin-top: 60px;
+}
+
+.head1Text {
+    font-size: 70px;
+    font-weight: bold;
+    color: #4D4F53;
+    opacity: 1 !important;
+    text-align: left;
+    width: 534px;
+    height: 97px;
+}
+
+.head2Text {
+    font-size: 44px;
+    font-weight: bold;
+    color: #4D4F53;
+    opacity: 1 !important;
+    text-align: left;
+    width: 216px;
+    height: 53px;
+}
+
+.head2TextRed {
+    font-size: 44px;
+    font-weight: bold;
+    color: #D10D74;
+    opacity: 1 !important;
+    width: 86px;
+    height: 53px;
+}
+
+.FormView {
+    width: 100%;
+    height: 389px;
+    opacity: 1 !important;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 13, 116);
+    border-radius: 20px;
+}
+
+
+
+.EmailInput,
+.ContactNoInput,
+.DropLineInput {
+    border: 0px;
+    border-bottom: 1px solid;
+    border-color: #4D4F53;
+    font-size: 18px;
+    height: 21px;
+    outline: none;
+}
+
+.FullNameInput {
+    border: 0px;
+    border-bottom: 1px solid;
+    border-color: #D10D74;
+    font-size: 18px;
+    height: 21px;
+    outline: none;
+}
+
+.SubButton {
+    display: flex;
+    justify-content: flex-end;
+    height: 72%;
+}
+
+.SubButtonRed {
+    border: 0px;
+    width: 134px;
+    height: 62px;
+    border-radius: 20px 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: 48px;
+    margin-right: 0px;
+    background-color: #D10D74;
+    color: #fff;
+}
+
+.FormViewParent {
+    padding: 24px 48px 24px 48px;
+}
+
+
+/* Right Pannel Style */
+.rightPannel {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.RightPannelParent,
+.topPart,
+.BottomPart,
+.MWU,
+.Address,
+.AddressN,
+.AddressP,
+.AddressE {
+    height: auto;
+}
+
+.topPart {
+    margin-top: 60px;
+}
+
+.worldMap {
+    width: 100%;
+    height: 624px;
+}
+
+.MWU {
+    justify-content: center;
+}
+
+.MWUTExt {
+    height: 52px;
+    width: 134px;
+    color: #4D4F53;
+    text-align: left;
+    font-size: 44px;
+}
+
+.MeetRed {
+    color: #D10D74;
+    text-align: left;
+    height: 52px;
+    width: 95px;
+    font-size: 44px;
+}
+
+.BottomPart {
+    margin-left: 25%;
+    width: auto;
+}
+
+.Address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Addressicon,
+.AddressPhoneicon,
+.AddressEmailicon {
+    height: auto;
+    width: auto;
+}
+
+.iconImg1,
+.iconImg2,
+.iconImg3 {
+    width: 17px;
+    height: 30px;
+}
+
+.AddressText,
+.AddressPhone,
+.AddressEmail {
+    margin-left: 5%;
+}
+
+.userIcon{
+    height: 21px;
+    width: 33px;
+}
