@@ -8,6 +8,7 @@ body,
     width: 100%;
 }
 
+/* =============================================Page 1 Style CSS start=================================================== */
 .mhPage1Background {
     background-image: url(../img/image/Hero-image.png);
     height: 100%;
@@ -17,6 +18,7 @@ body,
     position: relative;
     width: 100%;
 }
+
 
 /* page1 left side style */
 .mhPage1Left {
@@ -84,4 +86,94 @@ body,
 .mhpage1LeftButtondiv,
 .mhpage1LeftTextdiv {
     height: auto;
+}
+
+/* =============================================Page 1 Style CSS end=================================================== */
+
+/* =============================================Page 2 Style CSS start=================================================== */
+
+.mhPage2Background {
+    background-image: url(../img/SVG/black-dotline.svg);
+}
+
+.mhPage2ParentDiv {
+    height: auto;
+    width: 100%;
+    padding-left: 123px;
+    padding-right: 123px;
+}
+
+.mhpage2Header {
+    margin-top: 60px;
+}
+
+.mhPage2FirstHead {
+    height: auto;
+}
+
+.mhPage2SecondHead {
+    height: auto;
+}
+
+.mhPage2FirstHeadText {
+    font-size: 80px;
+    font-weight: bold;
+    height: 101px;
+    color: #4D4F53;
+    opacity: 1 !important;
+}
+
+.mhPage2SecondHeadText {
+    font-size: 40px;
+    height: 47px;
+    color: #4D4F53;
+    opacity: 1 !important;
+}
+
+.mhPage2SeconHeadRed {
+    font-size: 40px;
+    height: 35px;
+    color: #D10D74;
+    opacity: 1 !important;
+    width: 192px;
+}
+
+
+.mhPage2Grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    height: auto;
+}
+
+.grid-item{
+    
+}
+
+.mhPage2GridItem2,
+.mhPage2GridItem3,
+.mhPage2GridItem4,
+.mhPage2GridItem5,
+.mhPage2GridItem7,
+.mhPage2GridItem8,
+.mhPage2GridItem9,
+.mhPage2GridItem10,
+.mhPage2GridItem12,
+.mhPage2GridItem13,
+.mhPage2GridItem14 {
+    margin-left:85px ;
+}
+
+.mhPage2GridImg1 {
+    height: 53px;
+    width: 46px;
+    opacity: 100% !important;
+}
+
+.mhPage2GridText1{
+    margin-left: 20px;
+    width: 192px;
+    height: 62px;
+    font-size: 24px;
+    color: #404040;
 }
