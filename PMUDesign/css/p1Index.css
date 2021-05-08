@@ -315,3 +315,17 @@ body,
     top: 0px;
     z-index: 10;
 }
+
+.mhPage2ModalImage {
+    height: auto;
+    width: fit-content;
+}
+
+.mhPage2ModalContentParent {
+    height: fit-content;
+    width: fit-content;
+}
+
+.mhPage2ModalFooter {
+    height: auto
+}
