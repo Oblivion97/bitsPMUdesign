@@ -99,6 +99,10 @@ body,
 .mhPage2ParentDiv {
     height: auto;
     width: 100%;
+    
+}
+
+.mhPage2childDiv{
     padding-left: 123px;
     padding-right: 123px;
 }
@@ -144,10 +148,18 @@ body,
     grid-template-columns: auto auto auto auto auto;
     padding: 10px;
     height: auto;
+    margin-top: 63px;
+}
+
+.mhPage2GridRow1,
+.mhPage2GridRow2,
+.mhPage2GridRow3 {
+    display: flex;
+    flex-direction: row;
 }
 
 .grid-item{
-    
+    display:flex;
 }
 
 .mhPage2GridItem2,
@@ -164,16 +176,73 @@ body,
     margin-left:85px ;
 }
 
-.mhPage2GridImg1 {
+.mhPage2GridItem6,
+.mhPage2GridItem7,
+.mhPage2GridItem8,
+.mhPage2GridItem9,
+.mhPage2GridItem10,
+.mhPage2GridItem11,
+.mhPage2GridItem12,
+.mhPage2GridItem13,
+.mhPage2GridItem14 {
+    margin-top: 88px;
+}
+
+
+.mhPage2GridImg1,
+.mhPage2GridImg2,
+.mhPage2GridImg3,
+.mhPage2GridImg4,
+.mhPage2GridImg5,
+.mhPage2GridImg6,
+.mhPage2GridImg7,
+.mhPage2GridImg8,
+.mhPage2GridImg9,
+.mhPage2GridImg10,
+.mhPage2GridImg11,
+.mhPage2GridImg12,
+.mhPage2GridImg13,
+.mhPage2GridImg14 {
     height: 53px;
     width: 46px;
     opacity: 100% !important;
 }
 
-.mhPage2GridText1{
+.mhPage2GridText1,
+.mhPage2GridText2,
+.mhPage2GridText3,
+.mhPage2GridText4,
+.mhPage2GridText5,
+.mhPage2GridText6,
+.mhPage2GridText7,
+.mhPage2GridText8,
+.mhPage2GridText9,
+.mhPage2GridText10,
+.mhPage2GridText11,
+.mhPage2GridText12,
+.mhPage2GridText13,
+.mhPage2GridText14 {
     margin-left: 20px;
     width: 192px;
     height: 62px;
     font-size: 24px;
     color: #404040;
 }
+
+.mhPage2GridImageSpan1,
+.mhPage2GridImageSpan2,
+.mhPage2GridImageSpan3,
+.mhPage2GridImageSpan4,
+.mhPage2GridImageSpan5,
+.mhPage2GridImageSpan6,
+.mhPage2GridImageSpan7,
+.mhPage2GridImageSpan8,
+.mhPage2GridImageSpan9,
+.mhPage2GridImageSpan10,
+.mhPage2GridImageSpan11,
+.mhPage2GridImageSpan12,
+.mhPage2GridImageSpan13,
+.mhPage2GridImageSpan14 {
+    width: auto;
+}
+
