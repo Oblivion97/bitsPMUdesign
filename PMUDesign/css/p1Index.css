@@ -99,10 +99,10 @@ body,
 .mhPage2ParentDiv {
     height: auto;
     width: 100%;
-    
+
 }
 
-.mhPage2childDiv{
+.mhPage2childDiv {
     padding-left: 123px;
     padding-right: 123px;
 }
@@ -117,6 +117,9 @@ body,
 
 .mhPage2SecondHead {
     height: auto;
+    border-bottom: 1px solid #D10D74 !important;
+
+    border-color: #D10D74;
 }
 
 .mhPage2FirstHeadText {
@@ -143,12 +146,22 @@ body,
 }
 
 
-.mhPage2Grid {
+/* .mhPage2Grid {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     padding: 10px;
     height: auto;
     margin-top: 63px;
+} */
+
+.mhPage2Grid {
+    margin-top: 63px;
+    max-width: 1638px;
+    height: 363px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 88px;
+    column-gap: 85px;
 }
 
 .mhPage2GridRow1,
@@ -158,11 +171,11 @@ body,
     flex-direction: row;
 }
 
-.grid-item{
-    display:flex;
+.grid-item {
+    display: flex;
 }
 
-.mhPage2GridItem2,
+/* .mhPage2GridItem2,
 .mhPage2GridItem3,
 .mhPage2GridItem4,
 .mhPage2GridItem5,
@@ -174,9 +187,9 @@ body,
 .mhPage2GridItem13,
 .mhPage2GridItem14 {
     margin-left:85px ;
-}
+} */
 
-.mhPage2GridItem6,
+/* .mhPage2GridItem6,
 .mhPage2GridItem7,
 .mhPage2GridItem8,
 .mhPage2GridItem9,
@@ -186,7 +199,7 @@ body,
 .mhPage2GridItem13,
 .mhPage2GridItem14 {
     margin-top: 88px;
-}
+} */
 
 
 .mhPage2GridImg1,
@@ -246,3 +259,49 @@ body,
     width: auto;
 }
 
+/* .mhPage2child2Div {
+    border: 0px;
+    position: fixed;
+    bottom: 0px;
+    height: auto;
+}
+
+.mhPage2footerButton {
+    border: 0px;
+    background-color: #D10D74;
+    color: #fff;
+    height: 80px;
+    font-size: 30px;
+}
+
+.fotterbuttonImage{
+    width: 299px;
+    height: 175px;
+    position: relative;
+    margin-bottom: -80px;
+} */
+
+.mhPage2fotterParent {
+    border: 0px;
+    background-color: #D10D74;
+    color: #fff;
+    height: 70px;
+    font-size: 30px !important;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+.mhPage2footerText {
+    height: 45px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.mhPage2footerImage{
+    width: 299px;
+    height: 175px;
+    position: fixed;
+    margin-bottom: -80px;
+}
