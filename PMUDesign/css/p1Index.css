@@ -290,6 +290,7 @@ body,
     position: fixed;
     bottom: 0px;
     text-align: center;
+    z-index: 9;
 }
 
 .mhPage2footerText {
@@ -299,9 +300,18 @@ body,
     text-align: center;
 }
 
-.mhPage2footerImage{
+.mhPage2footerImage {
     width: 299px;
     height: 175px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    margin-left: 123px;
+    transform: skewX(-10deg);
+}
+
+.mhPage2Imagediv {
     position: fixed;
-    margin-bottom: -80px;
+    top: 0px;
+    z-index: 10;
 }
